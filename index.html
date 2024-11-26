@@ -1,19 +1,7 @@
 <!DOCTYPE html>
 <html>
 <head>
-  <!--
-    If you are serving your web app in a path other than the root, change the
-    href value below to reflect the base path you are serving from.
-
-    The path provided below has to start and end with a slash "/" in order for
-    it to work correctly.
-
-    For more details:
-    * https://developer.mozilla.org/en-US/docs/Web/HTML/Element/base
-
-    This is a placeholder for base href that will be replaced by the value of
-    the `--base-href` argument provided to `flutter build`.
-  -->
+  <!-- Base path for serving the web app -->
   <base href="/quickrun_admin/">
 
   <meta charset="UTF-8">
@@ -31,8 +19,40 @@
 
   <title>quickrun</title>
   <link rel="manifest" href="manifest.json">
+
+  <!-- Google Maps JavaScript API -->
+  <script
+    src="https://maps.googleapis.com/maps/api/js?key=AIzaSyDuZaJhAGJh19_8EpefW9ecOVNw-aAZkJ4"
+  ></script>
+  <script>
+    let map;
+    function initMap() {
+      // Example: Initialize the map with a default location
+      const defaultLocation = { lat: 9.31148, lng: 80.7229017 };
+      map = new google.maps.Map(document.getElementById("map-container"), {
+        center: defaultLocation,
+        zoom: 10,
+      });
+    }
+
+    function addMarker(lat, lng, title, color) {
+      // Add a marker to the map with dynamic data
+      new google.maps.Marker({
+        position: { lat: lat, lng: lng },
+        map: map,
+        title: title,
+        icon: `http://maps.google.com/mapfiles/ms/icons/${color}-dot.png`,
+      });
+    }
+  </script>
 </head>
 <body>
+  <!-- Placeholder for the Flutter app -->
+  <flutter-app></flutter-app>
+
+  <!-- Map container for rendering Google Maps -->
+  <div id="map-container" style="width: 100%; height: 100%; display: none;"></div>
+
   <script src="flutter_bootstrap.js" async></script>
 </body>
 </html>
