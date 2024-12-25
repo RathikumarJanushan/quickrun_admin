@@ -99013,7 +99013,7 @@ s=A.h7()
 n=n.e
 n.toString
 r=q.f
-return A.aFq(A.a([o,new A.el(p,16,p),m,A.dx("Date: "+s.ca(n),p,p,p),A.dx("Total Parcels Count: "+q.c,A.dF(p,p,p,p,p,p,p,p,p,B.b_,p,p,16,p,p,p,!0,p,p,p,p),p,p),A.dx("Parcels Delivery:",A.dF(p,p,p,p,p,p,p,p,p,B.b_,p,p,16,p,B.bo,p,!0,p,p,p,p),p,p),A.dx(B.l.aO(q.d,"\n"),A.dF(p,p,p,p,p,p,p,p,p,B.b_,p,p,14,p,p,p,!0,p,p,p,p),p,p),new A.el(p,16,p),A.dx("Total Pickup Parcels Price: "+q.a.a,A.dF(p,p,p,p,p,p,p,p,p,B.b_,p,p,18,p,B.bo,p,!0,p,p,p,p),p,p),new A.el(p,16,p),A.dx("Total Distance: "+B.n.a9(q.e,2)+" km",A.dF(p,p,p,p,p,p,p,p,p,B.b_,p,p,18,p,B.bo,p,!0,p,p,p,p),p,p),new A.el(p,16,p),A.Tc(p,p,A.Ph(r.length,new A.aBw(r),!0,t.yp),p,p,["NO","Restaurant","Parcels","Parcels Count","Timestamp","Total Distance"])],t.n_),B.iX)},
+return A.aFq(A.a([o,new A.el(p,16,p),m,A.dx("Date: "+s.ca(n),p,p,p),A.dx("Total delivery Parcels Price: "+q.c,A.dF(p,p,p,p,p,p,p,p,p,B.b_,p,p,18,p,B.bo,p,!0,p,p,p,p),p,p),A.dx("pickup details:",A.dF(p,p,p,p,p,p,p,p,p,B.b_,p,p,16,p,p,p,!0,p,p,p,p),p,p),A.dx(B.l.aO(q.d,"\n"),A.dF(p,p,p,p,p,p,p,p,p,B.b_,p,p,14,p,p,p,!0,p,p,p,p),p,p),new A.el(p,16,p),A.dx("Total Pickup Parcels Price: "+q.a.a,A.dF(p,p,p,p,p,p,p,p,p,B.b_,p,p,18,p,B.bo,p,!0,p,p,p,p),p,p),new A.el(p,16,p),A.dx("Total Distance: "+B.n.a9(q.e,2)+" km",A.dF(p,p,p,p,p,p,p,p,p,B.b_,p,p,18,p,B.bo,p,!0,p,p,p,p),p,p),new A.el(p,16,p),A.Tc(p,p,A.Ph(r.length,new A.aBw(r),!0,t.yp),p,p,["NO","Restaurant","Parcels","Parcels Count","Timestamp","Total Distance"])],t.n_),B.iX)},
 $S:239}
 A.aBw.prototype={
 $1(a){var s,r,q,p=this.a[a],o=p.h(0,"restaurant")
